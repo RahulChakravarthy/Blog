@@ -1,0 +1,23 @@
+/*ADD CSS HERE (REMEMBER TO ADD CSS YOU USE THE <STYLE> OPEN TAG*/
+	
+	.navigation {
+		margin-left: 5vw;
+		width: 100px;
+		height: 100px;
+		/*
+		background: transparent;
+		border: none;
+		modify the hover and the on click animation
+			Scale properly so it fits 
+		*/
+	}
+
+	body { 
+	  background: url("Assets/BlogBackground-2.png") no-repeat ; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  background-attachment: scroll;
+	 height: 2700px;
+	}

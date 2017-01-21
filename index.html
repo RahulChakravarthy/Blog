@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- want this to load first thats why it is before js scripts -->
+<head>
+	<meta charset="UTF-8">
+	<title>Rahul Chakravarthy</title>
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="Assets/thumbnail.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<!-- icon for the browser page -->
+	
+
+<!--ADD CSS HERE (REMEMBER TO ADD CSS YOU USE THE <STYLE> OPEN TAG -->
+<style>
+
+	body { 
+	  background: url("Assets/BlogBackground-3.png") no-repeat ; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  background-attachment: cover;
+	  height: 3300px;
+	  width: 1900px;
+
+	}
+
+	.PlaceholderText{
+		visibility: hidden;
+	}
+
+	/*BUTTON CSS */
+	.btn{
+		 padding: 30px 35px;
+		  font-size: 24px;
+		  text-align: center;
+		  cursor: pointer;
+		  outline: none;
+		  color: #fff;
+		  background-color: #ee522b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #331a00;
+		  font-family: "Oswald Regular", Times, serif;
+		  color: black;
+		  transform: translate(50px, 5px);
+
+	}
+
+	.btn:hover {
+		background-color: #d43811;
+		color: black;
+	}
+
+	.btn:active {
+	  background-color: #d43811;
+	  box-shadow: 0 2px #331a00;
+	  transform: translate(50px, 15px);
+	}
+
+
+
+	.btn-AboutMe{
+		transform: translate(450px, 5px);
+	}
+	.btn-AboutMe:hover {
+		background-color: #d43811;
+		color: black;
+	}
+	.btn-AboutMe:active{
+		background-color: #d43811;
+	  	box-shadow: 0 2px #331a00;
+	  	transform: translate(450px, 15px);
+	}
+
+
+
+	.btn-Portfolio {
+		transform: translate(505px, 5px);
+	}
+
+	.btn-Portfolio:hover {
+		background-color: #d43811;
+		color: black;
+	}
+
+	.btn-Portfolio:active {
+		background-color: #d43811;
+	  	box-shadow: 0 2px #331a00;
+	  	transform: translate(505px, 15px);
+	}
+	
+	.btn-Services {
+		transform: translate(1300px, 5px);
+	}
+
+	.btn-Services:hover {
+		background-color: #d43811;
+		color: black;
+	}
+
+	.btn-Services:active {
+		background-color: #d43811;
+	  	box-shadow: 0 2px #331a00;
+	  	transform: translate(1300px, 15px);
+	}
+
+	.btn-Contact {
+		transform: translate(1200px, 5px);
+	}
+
+	.btn-Contact:hover {
+		background-color: #d43811;
+		color: black;
+	}
+
+	.btn-Contact:active {
+		background-color: #d43811;
+	  	box-shadow: 0 2px #331a00;
+	  	transform: translate(1200px, 15px);
+	}
+
+
+
+	
+	</style>
+	<!-- END OF CSS STYLING -->
+</head>
+
+
+
+<!-- MAIN HTML CONTENT -->
+<body>
+
+	<a href = "index.html" class="btn" role="HomePage">HOME</a>
+	<a href = "#Panel1" class="btn" role="HomePage">ABOUT ME</a>
+	<a href = "#Panel2" class="btn" role="HomePage">PORTFOLIO</a>
+	<a href = "#Panel3" class="btn" role="HomePage">SERVICES</a>
+	<a href = "#Panel5" class="btn" role="HomePage">CONTACT ME</a>
+
+
+	<!-- LOCATION FOR BUTTON ALONG WITH LINKS -->
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<a name ="Panel1" class = "PlaceholderText"> anchor1 </a>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<a href = "AboutMe.html" class = "btn btn-AboutMe">READ MORE </a>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<a name ="Panel2" class = "PlaceholderText"> anchor2 </a>
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<a href = "Portfolio.html" class = "btn btn-Portfolio">READ MORE </a> 
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br/>
+	<a name ="Panel3" class = "PlaceholderText"> anchor3 </a>
+	<br /><br /><br /><br /><br />
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<a name ="Panel5" class = "PlaceholderText"> anchor5 </a>
+	<br /><br /><br /><br /><br /><br /><br /><br />
+	<a href = "Services.html" class = "btn btn-Services">READ MORE </a> 
+	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<a href = "ContactMe.html" class = "btn btn-Contact">READ MORE </a> 
+	<!-- Adding jquery.js (VERY IMPORTANt) which allows me to use the bootstrap.js framwork -->
+	<script src ="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/boostrap.min.js"></script>
+
+	
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- want this to load first thats why it is before js scripts -->
+<head>
+	<meta charset="UTF-8">
+	<title>Rahul Chakravarthy</title>
+	<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="Assets/thumbnail.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<!-- icon for the browser page -->
+	
+
+<!--ADD CSS HERE (REMEMBER TO ADD CSS YOU USE THE <STYLE> OPEN TAG -->
+	<style>
+	
+	body { 
+	  background: url("Assets/AboutMe.png") no-repeat ; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  background-attachment: cover;
+	  height: 3300px;
+	  width: 1800px;
+
+	}
+
+	.PlaceholderText{
+		visibility: hidden;
+	}
+
+	/*BUTTON CSS */
+	.btn{
+		 padding: 30px 35px;
+		  font-size: 24px;
+		  text-align: center;
+		  cursor: pointer;
+		  outline: none;
+		  color: #fff;
+		  background-color: #ee522b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #331a00;
+		  font-family: "Oswald Regular", Times, serif;
+		  color: black;
+		  transform: translate(50px, 5px);
+
+	}
+
+	.btn:hover {
+		background-color: #d43811;
+		color: black;
+	}
+
+	.btn:active {
+	  background-color: #d43811;
+	  box-shadow: 0 2px #331a00;
+	  transform: translate(50px, 15px);
+	}
+
+	.btn-Contact {
+		 padding: 30px 35px;
+		  font-size: 24px;
+		  text-align: center;
+		  cursor: pointer;
+		  outline: none;
+		  color: #fff;
+		  background-color: #ee522b;
+		  border: none;
+		  border-radius: 15px;
+		  box-shadow: 0 9px #331a00;
+		  font-family: "Oswald Regular", Times, serif;
+		  color: black;
+		  transform: translate(400px, 2950px);
+	}
+
+	.btn-Contact:hover {
+		
+		background-color: #d43811;
+		color: black;
+	}
+
+	.btn-Contact:active {
+
+		background-color: #d43811;
+	 	box-shadow: 0 2px #331a00;
+	  	transform: translate(400px, 2965px);
+	}
+
+	</style>
+	<!-- END OF CSS STYLING -->
+</head>
+
+
+
+<!-- MAIN HTML CONTENT -->
+<body>
+
+	<a href = "index.html" class="btn" role="HomePage">HOME</a>
+	<a href = "index.html#Panel1" class="btn" role="HomePage">ABOUT ME</a>
+	<a href = "index.html#Panel2" class="btn" role="HomePage">PORTFOLIO</a>
+	<a href = "index.html#Panel3" class="btn" role="HomePage">SERVICES</a>
+	<a href = "index.html#Panel5" class="btn" role="HomePage">CONTACT ME</a>
+
+	<a href = "ContactMe.html" class ="btn btn-Contact" role = "HomePage">READ MORE </a>
+
+
+	<!-- Adding jquery.js (VERY IMPORTANt) which allows me to use the bootstrap.js framwork -->
+	<script src ="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/boostrap.min.js"></script>
+
+	
+</body>
+</html>
